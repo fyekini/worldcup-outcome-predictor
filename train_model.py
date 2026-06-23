@@ -1,9 +1,9 @@
 """
 train_model.py
 
-Trains an XGBoost classifier to predict match outcome (home win / draw / away win)
-using engineered features from data_pipeline.py. Saves the trained model and
-prints accuracy + log-loss for your resume bullet.
+Trains an XGBoost classifier to predict match outcome home win / draw / away win
+using features from data_pipeline.py. Saves the trained model and
+prints accuracy + log-loss for resume bullet.
 """
 
 import sqlite3
