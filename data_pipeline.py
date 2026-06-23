@@ -2,11 +2,10 @@
 data_pipeline.py
 
 Loads raw match data into a SQLite database and builds engineered features:
-- rolling form (points from last 5 matches)
+- rolling form - points from last 5 matches
 - goal differential average
 - FIFA rank gap between teams
 
-Demonstrates: SQL schema design, feature engineering with SQL + pandas.
 """
 
 import sqlite3
