@@ -1,0 +1,6 @@
+worldcup.db
+model.pkl
+__pycache__/
+*.pyc
+.DS_Store
+data/real_matches_raw.csv
